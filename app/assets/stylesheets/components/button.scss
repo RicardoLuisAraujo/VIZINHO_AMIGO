@@ -24,6 +24,14 @@
   transition: background 0.3s ease;
 }
 
+.btn-vizinho {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: rgba(102,217,213, 1);
+  transition: background 0.3s ease;
+}
+
 .btn-flat:hover {
   background: #1BCB7F;
   color: white;
