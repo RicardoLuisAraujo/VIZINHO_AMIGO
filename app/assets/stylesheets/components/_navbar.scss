@@ -1,7 +1,13 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: transparent;
+  transition: 0.5s background-color ease;
 }
+
+.navbar-lewagon-color {
+  background: rgb(102,217,213);
+}
+
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;

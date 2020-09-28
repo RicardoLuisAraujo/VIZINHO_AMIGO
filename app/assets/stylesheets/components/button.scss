@@ -12,11 +12,23 @@
   opacity: 1;
 }
 
+.btn-outline-success:hover {
+  color: white;
+}
+
 .btn-flat {
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
   background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-vizinho {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: rgba(102,217,213, 1);
   transition: background 0.3s ease;
 }
 

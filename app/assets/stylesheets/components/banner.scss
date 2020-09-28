@@ -9,7 +9,7 @@
   margin-bottom: 50px;
 }
 
-.banner h1 {
+.banner h1, .banner h2 {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 80px;
@@ -27,5 +27,13 @@
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-family: Raleway;
-  height: 500px;
+  // height: 100px;
 }
+
+#comunidade .btn-primary {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(102,217,213);
+  border-color: rgb(102,217,213);
+}
+
