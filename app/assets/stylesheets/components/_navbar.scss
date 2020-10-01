@@ -5,8 +5,8 @@
 }
 
 .navbar-lewagon-color {
-  background-color: rgb(102,217,213) !important;
-  background: rgb(102,217,213);
+  background: white !important;
+
 }
 
 
@@ -16,4 +16,8 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-lewagon-color .nav-link {
+  color: #00a79d !important;
 }
