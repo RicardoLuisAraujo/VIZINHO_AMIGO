@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .cards {
   height: 100%;
 }
@@ -43,3 +47,11 @@
 .text-align-center {
   text-align: center;
 }
+
+#about-us::before {
+  content: "";
+  display: block;
+  height: 100px; /* fixed header height*/
+  margin: -10px 0 0; /* negative fixed header height */
+}
+
