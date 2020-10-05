@@ -48,10 +48,17 @@ html {
   text-align: center;
 }
 
-#about-us::before {
+#about-us::before, #juntar::before {
   content: "";
   display: block;
   height: 100px; /* fixed header height*/
-  margin: -10px 0 0; /* negative fixed header height */
+  margin: -100px 0 0; /* negative fixed header height */
+}
+
+#juntar::before {
+  content: "";
+  display: block;
+  height: 50px; /* fixed header height*/
+  margin: -50px 0 0; /* negative fixed header height */
 }
 
