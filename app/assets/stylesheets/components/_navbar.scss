@@ -2,6 +2,7 @@
   justify-content: space-between;
   background: transparent;
   transition: 0.5s background-color ease;
+  color: white !important;
 }
 
 .navbar-lewagon-color {
@@ -21,5 +22,9 @@
 
 .navbar-lewagon-color .nav-link {
   color: #00a79d !important;
+}
+
+.nav-item a.nav-link {
+  color: white;
 }
 
