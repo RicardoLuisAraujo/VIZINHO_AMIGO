@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-family: Open sans;
+}
+
 .cards {
   height: 100%;
 }
@@ -72,6 +76,5 @@ html {
 a {
   color: inherit;
   text-decoration: inherit;
-  //cursor: inherit;
 }
 
