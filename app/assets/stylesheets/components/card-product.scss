@@ -48,3 +48,17 @@
   margin-right: auto;
 }
 
+.privacidade {
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: none;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > summary:first-of-type {
+    list-style-type: none;
+}
+
